@@ -24,7 +24,10 @@ For this activity I had to develop a REST API for an inventory management system
 `scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `imsomnia testing` `+`
 
 ## S2-20-M4 - 06/05/23 - LOCADORA DE FILMES
-Still coding.<br />
+Description still under construction.<br />
+
+<a href="https://github.com/bitoller/bootcamp-projects-and-activities-m4/tree/main/src/M4-SPRINT-2/S2-20-M4" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
+<a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
 
 <hr />
 
