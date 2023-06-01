@@ -260,5 +260,7 @@ O exemplo abaixo foi realizado na seguinte rota: **/movies/1**.
 |**Status code:** **_204 NO CONTENT._**|
 
 **Não** altere nenhum dado do readme.
+<br>
+<br>
 
-repository uid: 6c05b259-e7c0-4798-917f-270afbc010d9
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
