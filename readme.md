@@ -32,7 +32,10 @@ For this activity I had to develop a REST API for a fake client who manages a mo
 `scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `imsomnia testing` `PostgreSQL` `+`
 
 ## S3-15-M4 - 06/12/23 - KENZIEVELOPERS
-Still coding.<br />
+Description under construction.<br />
+
+<a href="https://github.com/bitoller/bootcamp-projects-and-activities-m4/tree/main/src/M4-SPRINT-3/S3-15-M4" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
+<a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
 
 <hr />
 
