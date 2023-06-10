@@ -4,11 +4,12 @@ import {
   IProject,
   Project,
   TProject,
+  TProjectResult,
   TProjectUpdate,
 } from "../interfaces/projects.interfaces";
 
-export const readProjectById = async (id: string): Promise<Project> => {
-  const queryResult = await client.query(
+export const readProjectById = async (id: string): Promise<IProject> => {
+  const queryResult: TProjectResult = await client.query(
     `SELECT
     pj.id AS "projectId",
     pj.name AS "projectName",
@@ -30,12 +31,12 @@ export const readProjectById = async (id: string): Promise<Project> => {
 };
 
 export const createProject = async (payload: TProject): Promise<IProject> => {
-  const queryFormat = format(
+  const queryFormat: string = format(
     `INSERT INTO projects (%I) VALUES (%L) RETURNING *;`,
     Object.keys(payload),
     Object.values(payload)
   );
-  const queryResult = await client.query(queryFormat);
+  const queryResult: TProjectResult = await client.query(queryFormat);
 
   return queryResult.rows[0];
 };
@@ -44,12 +45,12 @@ export const updateProject = async (
   payload: TProjectUpdate,
   id: string
 ): Promise<IProject> => {
-  const queryFormat = format(
+  const queryFormat: string = format(
     `UPDATE projects SET (%I) = ROW (%L) WHERE id = $1 RETURNING *;`,
     Object.keys(payload),
     Object.values(payload)
   );
-  const queryResult = await client.query(queryFormat, [id]);
+  const queryResult: TProjectResult = await client.query(queryFormat, [id]);
 
   return queryResult.rows[0];
 };

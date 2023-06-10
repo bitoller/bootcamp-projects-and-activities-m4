@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { client } from "../database";
 import { NotFound } from "../error";
+import { TProjectResult } from "../interfaces/projects.interfaces";
 
 export const ensureProjectIdExists = async (
   request: Request,
@@ -8,7 +9,7 @@ export const ensureProjectIdExists = async (
   next: NextFunction
 ): Promise<Response | void> => {
   const { id } = request.params;
-  const queryResult = await client.query(
+  const queryResult: TProjectResult = await client.query(
     `SELECT * FROM projects WHERE id = $1;`,
     [id]
   );

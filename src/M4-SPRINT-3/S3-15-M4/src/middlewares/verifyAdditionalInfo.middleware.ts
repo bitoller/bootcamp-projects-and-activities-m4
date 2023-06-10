@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { client } from "../database";
 import { Conflict } from "../error";
+import { TDeveloperInfosResult } from "../interfaces/developers.interfaces";
 
 export const ensureAdditionalInfoExists = async (
   request: Request,
@@ -8,7 +9,7 @@ export const ensureAdditionalInfoExists = async (
   next: NextFunction
 ): Promise<Response | void> => {
   const { id } = request.params;
-  const queryResult = await client.query(
+  const queryResult: TDeveloperInfosResult = await client.query(
     `SELECT * FROM "developerInfos" WHERE "developerId" = $1;`,
     [id]
   );

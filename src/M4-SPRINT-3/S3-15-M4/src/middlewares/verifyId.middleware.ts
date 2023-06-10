@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { client } from "../database";
 import { NotFound } from "../error";
+import { TDeveloperResult } from "../interfaces/developers.interfaces";
 
 export const ensureDeveloperIdExists = async (
   request: Request,
@@ -8,7 +9,7 @@ export const ensureDeveloperIdExists = async (
   next: NextFunction
 ) => {
   const { id } = request.params;
-  const queryResult = await client.query(
+  const queryResult: TDeveloperResult = await client.query(
     `SELECT * FROM developers WHERE id = $1;`,
     [id]
   );
