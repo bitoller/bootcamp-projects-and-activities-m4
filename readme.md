@@ -40,7 +40,7 @@ For this activity I had to develop a REST API for a fake client so they can mana
 `scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `testing` `PostgreSQL` `PG` `PG format` `dontenv` `express async errors` `+`
 
 ## S4-10-M4 - 06/19/23 - USER E COURSES + PERMISSÃO DE ADMINISTRADOR
-Still coding.<br />
+Description still under construction.<br />
 
 <hr />
 
