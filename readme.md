@@ -42,6 +42,9 @@ For this activity I had to develop a REST API for a fake client so they can mana
 ## S4-10-M4 - 06/19/23 - USER E COURSES + PERMISSÃO DE ADMINISTRADOR
 Description still under construction.<br />
 
+<a href="https://github.com/bitoller/bootcamp-projects-and-activities-m4/tree/main/src/M4-SPRINT-4/S4-10-M4" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
+<a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
+
 <hr />
 
 <p align="center">
