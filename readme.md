@@ -21,7 +21,7 @@ For this activity I had to develop a REST API for an inventory management system
 <a href="https://github.com/bitoller/bootcamp-projects-and-activities-m4/tree/main/src/M4-SPRINT-1/S1-18-M4" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
 <a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
 
-`scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `imsomnia testing` `+`
+`scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `unit testing` `+`
 
 ## S2-20-M4 - 06/05/23 - LOCADORA DE FILMES
 For this activity I had to develop a REST API for a fake client who manages a movie rental store, using Node.js, TypeScript, Express and PostgreSQL. The purpose of this API is to be integrated into a streaming platform and facilitate the management of their movie collection. To effectively manage the store's inventory, the application will include routes for creating, listing, updating, and deleting movies.<br />
@@ -29,7 +29,7 @@ For this activity I had to develop a REST API for a fake client who manages a mo
 <a href="https://github.com/bitoller/bootcamp-projects-and-activities-m4/tree/main/src/M4-SPRINT-2/S2-20-M4" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
 <a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
 
-`scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `imsomnia testing` `PostgreSQL` `PG` `PG format` `dontenv` `+`
+`scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `unit testing` `PostgreSQL` `PG` `PG format` `dontenv` `+`
 
 ## S3-15-M4 - 06/12/23 - KENZIEVELOPERS
 For this activity I had to develop a REST API for a fake client so they can manage their developers and projects, using Node.js, TypeScript, Express and PostgreSQL. The purpose of this API is to register developers, associate additional information with them, and record the projects of each developer. The application will include routes for creating, listing, updating, and deleting developers, developer's infos and projects.<br />
@@ -37,13 +37,15 @@ For this activity I had to develop a REST API for a fake client so they can mana
 <a href="https://github.com/bitoller/bootcamp-projects-and-activities-m4/tree/main/src/M4-SPRINT-3/S3-15-M4" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
 <a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
 
-`scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `testing` `PostgreSQL` `PG` `PG format` `dontenv` `express async errors` `+`
+`scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `unit testing` `PostgreSQL` `PG` `PG format` `dontenv` `express async errors` `+`
 
 ## S4-10-M4 - 06/19/23 - USER E COURSES + PERMISSÃO DE ADMINISTRADOR
-Description still under construction.<br />
+For this activity I had to develop a REST API for a fake client so they can manage their users and courses, using Node.js, TypeScript, Express and PostgreSQL. The purpose of this API is to register users and record the courses of each user. The application will include routes for creating, listing and deleting users and courses. In addition to core functionality, I implemented robust access control measures within the API. This allowed users to access specific resources only after successful login, while users with administrative permissions enjoyed extended privileges and control over the system.<br />
 
 <a href="https://github.com/bitoller/bootcamp-projects-and-activities-m4/tree/main/src/M4-SPRINT-4/S4-10-M4" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
 <a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
+
+`scaffolding` `function` `variables` `data type` `boolean` `conditionals` `objects` `array` `methods` `API creation` `CRUD` `node.js` `express` `middleware` `unit testing` `PostgreSQL` `PG` `PG format` `dontenv` `express async errors` `zod` `json web token` `bcryptjs` `+`
 
 ## S5-19-M4 - 06/26/23 - LOCADORA DE FILMES COM TYPEORM
 Still coding.<br />
