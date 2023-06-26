@@ -53,6 +53,9 @@ Description under construction.<br />
 <a href="https://github.com/bitoller/bootcamp-projects-and-activities-m4/tree/main/src/M4-SPRINT-5/S5-19-M4" target="_blank"> <img src="./src/assets/code_purple.png"> </a> &nbsp; &nbsp;
 <a href="#" target="_blank"> <img src="./src/assets/page_purple.png"> </a> &nbsp; &nbsp;
 
+## S6-12-M4 - 07/10/23 - KIMÓVEIS
+Still coding.<br />
+
 <hr />
 
 <p align="center">
