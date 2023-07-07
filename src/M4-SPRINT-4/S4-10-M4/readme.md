@@ -995,3 +995,7 @@ Você foi o desenvolvedor selecionado para implementar o MVP levando em conta o 
   	"message": "Insufficient permission"
   }
   ```
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>

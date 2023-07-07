@@ -165,3 +165,7 @@ A rota não precisa de autenticação para ser acessada.
 
 -   Rota deve listar todos os agendamentos de um imóvel.
 -   A rota pode ser acessada apenas por administradores.
+<br>
+<br>
+
+<p align="center"><b>Taken from Kenzie Academy Brasil</b></p>
